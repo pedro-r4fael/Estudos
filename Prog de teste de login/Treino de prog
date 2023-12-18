@@ -1,0 +1,30 @@
+import os 
+#os.system("clear")
+
+nome_digitado = input("Digite seu nome completo: ")
+idade_digitada = input("Digite sua idade: ")
+email_digitado = input("Digite seu e-mail: ")
+
+
+
+# cadastro = [{
+#     "Nome": nome_digitado,
+#     "Idade": idade_digitada,
+#     # "E-mail": email_digitado,
+# }]
+
+
+        
+
+
+
+
+                
+# for categoria in cadastro:
+    # print(categoria["Nome"])
+    # print(categoria["Idade"])
+    # print(categoria["E-mail"])
+
+
+
+

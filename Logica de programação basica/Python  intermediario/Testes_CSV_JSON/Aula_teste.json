@@ -1,0 +1,150 @@
+{
+    "data": [
+      {
+        "id": 0,
+        "name": "string",
+        "created_at": "string",
+        "updated_at": "string",
+        "first_interaction_at": "string",
+        "last_interaction_at": "string",
+        "perception": "string",
+        "status": "string",
+        "conversion_goal": "string",
+        "message": "string",
+        "integration_third_party_id": "string",
+        "flow": "string",
+        "contact": {
+          "id": 0,
+          "email": "string",
+          "id_number": "string",
+          "phone": "string",
+          "cellphone": "string",
+          "company": {
+            "position": "string",
+            "name": "string",
+            "id_number": "string",
+            "phone": "string",
+            "email": "string",
+            "website": "string"
+          },
+          "address": {
+            "address_line1": "string",
+            "address_number": "string",
+            "address_line2": "string",
+            "neighborhood": "string",
+            "city": "string",
+            "state": "string",
+            "country": "string",
+            "zipcode": "string"
+          },
+          "attendant": {
+            "id": 0,
+            "name": "string"
+          },
+          "team": {
+            "id": 0,
+            "name": "string"
+          },
+          "custom_key": "string"
+        },
+        "attendant": {
+          "id": 0,
+          "name": "string"
+        },
+        "salesman": {
+          "id": 0,
+          "name": "string"
+        },
+        "interests": {
+          "interest_1": {
+            "id": 0,
+            "name": "string",
+            "required": "string"
+          },
+          "interest_2": {
+            "id": 0,
+            "name": "string",
+            "required": "string"
+          },
+          "interest_3": {
+            "id": 0,
+            "name": "string",
+            "required": "string"
+          },
+          "interest_4": {
+            "id": 0,
+            "name": "string",
+            "required": "string"
+          },
+          "interest_5": {
+            "id": 0,
+            "name": "string",
+            "required": "string"
+          },
+          "interest_6": {
+            "id": 0,
+            "name": "string",
+            "required": "string"
+          }
+        },
+        "tracking": {
+          "source": "string",
+          "medium": "string",
+          "campaign": "string",
+          "format": "string"
+        },
+        "legal_bases": {
+          "processing": {
+            "id": 0,
+            "name": "string",
+            "opt_in": true
+          },
+          "communication": {
+            "id": 0,
+            "name": "string",
+            "opt_in": true
+          }
+        },
+        "last_proposal": {
+          "id": 0,
+          "amount": 0
+        },
+        "finalization": {
+          "id": 0,
+          "invoice_date": "string",
+          "amount": 0,
+          "order_number": 0,
+          "invoice_number": 0,
+          "message": "string",
+          "unrealized_sale_reason": {
+            "id": 0,
+            "name": "string"
+          } 
+        },
+        "last_schedule": {
+          "id": 0,
+          "date": "string",
+          "status": "realized",
+          "reason": {
+            "id": 0,
+            "name": "string"
+          }
+        }
+      }
+    ],
+    "links": {
+      "first": "string",
+      "last": "string",
+      "prev": "string",
+      "next": "string"
+    },
+    "meta": {
+      "current_page": 0,
+      "from": 0,
+      "last_page": 0,
+      "path": "string",
+      "per_page": 0,
+      "to": 0,
+      "total": 0
+    }
+  }
